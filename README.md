@@ -1,3 +1,4 @@
+```go
 package fu3fi
 
 import (
@@ -7,3 +8,4 @@ import (
 func main() {
 
 }
+```
