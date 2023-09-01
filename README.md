@@ -6,12 +6,15 @@ import (
 )
 
 type Skills interface {
-  Coffee() Error
-  Exploit() Error
-  Program() Error
+  Coffee()
+  Exploit()
+  Program()
+  English()
+  Study()
 } 
 
 func main() {
-  var fu3fi Skills = p.NewWorker() 
+  // knowing go, python, javascript, php, sql
+  var fu3fi Skills = p.NewWorker()
 }
 ```
