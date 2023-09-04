@@ -1,20 +1,40 @@
 ```go
-package fu3fi
+package GoodEmployees
 
 import (
   p "people"
 )
 
-type Skills interface {
-  Coffee()
-  Exploit()
-  Program()
+type Programming interface {
+  Go()
+  Python()
+  SQL()
+  JS()
+  PHP()
+}
+
+type Language interface {
+  Russian()
   English()
+}
+
+type CyberSecurity interface {
+  Web()
+  ActiveDirectory()
+  MalwareDevelopment()
+  Network()
+}
+
+type Skills interface {
+  Programming
+  Language
+  CyberSecurity
+
+  Coffee()
   Study()
 } 
 
 func main() {
-  // knowing go, python, javascript, php, sql
-  var fu3fi Skills = p.NewWorker()
+  var fu3fi Skills = p.NewEmployee()
 }
 ```
